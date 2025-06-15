@@ -37,7 +37,6 @@ body {
   background-size: cover;      
   background-position: center; 
   background-repeat: no-repeat;
-
   height: 100vh;               
   width: 100%;
   position: relative;
@@ -86,6 +85,10 @@ body {
   color: #5c54d5;
   font-size: 32px;
   margin-bottom: 40px;
+}
+
+.produtos p{
+    color: #000;
 }
 
 .produtos-list {
@@ -224,4 +227,70 @@ body {
   background: #fff;
   color: #5c54d5;
   border: 1px solid #5c54d5;
+}
+
+/* Como trabalhamos */
+.container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: #4A405A;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 20px;
+}
+
+.step {
+  padding: 20px;
+  border-radius: 12px;
+  background: #F5F5F9;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+}
+
+.step img {
+  width: 50px;
+  margin-bottom: 15px;
+  color: #5c54d5;
+}
+
+.step h3 {
+  color: #4A405A;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.step p {
+  color: #6E6E79;
+  font-size: 0.95rem;
+}
+
+
+/* Sobre nós */
+.sobre-nos {
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #5c54d5; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sobre-nos p {
+  max-width: 500px;
+  margin: 20px auto 0;
+  font-size: 18px;
 }
