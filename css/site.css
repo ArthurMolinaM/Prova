@@ -145,3 +145,83 @@ body {
   background: #5c54d5;
   color: #fff;
 }
+
+
+/* Nossos planos */
+.planos {
+  padding: 50px;
+  text-align: center;
+  background: #f5f5f5;
+  color: #5c54d5;
+}
+
+.planos-icones {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+ align-items: flex-start;
+}
+
+.planos-icones div {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.planos-icones div i {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.planos-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.plano-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+}
+
+.plano-item h3 {
+  color: #5c54d5;
+  margin-bottom: 10px;
+}
+
+.plano-item strong {
+  color: #5c54d5;
+  font-size: 30px;
+}
+
+.plano-item ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plano-item ul li {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.plano-item button {
+  padding: 10px 20px;
+  background: #5c54d5;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.plano-item button:hover {
+  background: #fff;
+  color: #5c54d5;
+  border: 1px solid #5c54d5;
+}
