@@ -44,11 +44,11 @@ body {
 }
 
 .header-content {
-  height: 100vh;  /* faz a seção ocupar a altura da janela */
+  height: 100vh;  
   display: flex;
   flex-direction: column;
-  align-items: center;   /* centraliza horizontalmente */
-  justify-content: center;  /* centraliza verticalmente */
+  align-items: center;   
+  justify-content: center;  
   text-align: center;
 
   background-image: url('Header.png'); 
@@ -72,6 +72,76 @@ body {
 }
 
 .header-content button:hover {
+  background: #5c54d5;
+  color: #fff;
+}
+
+.produtos {
+  padding: 50px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.produtos h2 {
+  color: #5c54d5;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.produtos-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.produto-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+}
+
+.produto-item img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.produto-item h3 {
+  color: #5c54d5;
+  margin-bottom: 10px;
+}
+
+.produto-item p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.produto-item span {
+  color: #888;
+  font-size: 14px;
+}
+
+.produto-item strong {
+  color: #555;
+  font-size: 16px;
+}
+
+.produto-item button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #5c54d5;
+  border: 1px solid #5c54d5;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.produto-item button:hover {
   background: #5c54d5;
   color: #fff;
 }
